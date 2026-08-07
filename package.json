@@ -1,0 +1,17 @@
+{
+  "name": "7eme-ciel-builder",
+  "version": "1.0.0",
+  "description": "Bot d'automation et de déploiement IaC pour le serveur Discord Le 7ème Ciel",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
